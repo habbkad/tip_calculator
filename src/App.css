@@ -1,38 +1,116 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: hsl(185, 41%, 84%);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.tip_con {
+  background-color: hsl(189, 41%, 97%);
+  width: 50%;
+  border-radius: 20px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.logoImg {
+  height: 50px;
+  width: 70px;
+  margin-bottom: 5% !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.fontSmall {
+  font-family: space_mono_bold !important;
+  font-size: 13px !important;
+  color: hsl(186, 14%, 43%);
+}
+.fontSmallCausion {
+  font-family: space_mono_bold !important;
+  font-size: 13px !important;
+  color: hsl(186, 14%, 43%);
+}
+.fontSmall2 {
+  font-family: space_mono_bold !important;
+  font-size: 14px !important;
+  color: hsl(0, 0%, 100%);
+}
+.fontBold {
+  font-family: space_mono_bold !important;
+}
+.fontInput {
+  font-family: space_mono_bold !important;
+}
+.fontTitle {
+  font-family: space_mono !important;
+  font-size: 30px !important;
+}
+.fontOutput {
+  font-family: space_mono_bold !important;
+  font-size: 40px !important;
+  color: hsl(172, 67%, 45%);
+}
+@media only screen and (max-width: 768px) {
+  .tip_con {
+    background-color: hsl(189, 41%, 97%);
+    width: 100%;
+    border-radius: 20px;
+    height: 110%;
+    display: flex;
+    margin-top: 120px;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    padding: auto;
   }
-  to {
-    transform: rotate(360deg);
+
+  .fontTitle {
+    font-family: space_mono !important;
+    font-size: 20px !important;
+  }
+  .logoImg {
+    height: 50px;
+    width: 70px;
+    margin-bottom: 5% !important;
+  }
+  .logoImg {
+    height: 50px;
+    width: 70px;
+    margin-top: 70%;
+    margin-bottom: 0% !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .tip_con {
+    background-color: hsl(189, 41%, 97%);
+    width: 100%;
+    height: 98%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    align-content: center;
+    justify-items: center;
+    padding: auto;
+  }
+
+  .fontTitle {
+    font-family: space_mono !important;
+    font-size: 20px !important;
+  }
+  .fontOutput {
+    font-family: space_mono_bold !important;
+    font-size: 30px !important;
+    color: hsl(172, 67%, 45%);
+  }
+  .logoImg {
+    height: 50px;
+    width: 70px;
+    margin-top: 70%;
+    margin-bottom: 0% !important;
   }
 }

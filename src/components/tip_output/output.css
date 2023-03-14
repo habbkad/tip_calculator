@@ -1,0 +1,30 @@
+.output_con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: hsl(183, 100%, 15%);
+}
+
+.reset_btn {
+  width: 100%;
+  margin-top: 15%;
+  background-color: hsl(186, 14%, 43%) !important;
+  font-family: space_mono;
+  font-weight: 700;
+  color: hsl(183, 100%, 15%) !important;
+  font-family: space_mono_bold !important;
+}
+.reset_btn:hover {
+  width: 100%;
+  margin-top: 15%;
+  background-color: hsl(172, 67%, 45%) !important;
+  font-family: space_mono;
+  font-weight: 700;
+  color: hsl(183, 100%, 15%) !important;
+  font-family: space_mono_bold !important;
+}
